@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default ="compile">
+
+<property name="calculation" location="./src">
+
+</property>
+
+<property name="calsscode" location="./target">
+
+</property>
+
+<target name="compile">
+	<mkdir dir="${classcode}"/>
+<javac srcdir ="${calculation}" destdir="${classcode}">
+
+</javac>
+
+</target>
+</project>
