@@ -6,15 +6,15 @@
 
 </property>
 
-<property name="calsscode" location="./target">
+<property name="calsscode" location="./target"/>
 
-</property>
+
 
 <target name="compile">
 	<mkdir dir="${classcode}"/>
-<javac srcdir ="${calculation}" destdir="${classcode}">
+<javac srcdir ="${calculation}" destdir="${classcode}" includeantruntime="false"/>
 
-</javac>
+
 
 </target>
 </project>
